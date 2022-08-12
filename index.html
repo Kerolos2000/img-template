@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="img/logo1.png" />
+  <title>change image source</title>
+  <link rel="stylesheet" href="css/flickity.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <!-- <link rel="stylesheet" href="css/all.min.css" /> -->
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Secular+One&display=swap" rel="stylesheet">
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <!-- main css file -->
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body class="custom-scrollbar" id="index">
+
+
+  <!-- nav section -->
+  <header class="s" id="nav">
+    <div class="container ">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <a href="index.html"><img src="img\logo.png" alt="Elphone Store" id="logo"></a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link active" aria-current="page">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="index.html" class="nav-link " aria-current="page">Products</a>
+              </li>
+              <li class="nav-item">
+                <a href="index.html" class="nav-link " aria-current="page">News</a>
+              </li>
+              <li class="nav-item">
+                <a href="index.html" class="nav-link " aria-current="page">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="index.html" class="nav-link " aria-current="page">Contact</a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section id="main">
+    <div class="container w-100 mt-5">
+      <div class="row mt-5">
+        <div data-aos="fade-up" data-aos-duration="1000" class="text col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+          <h1>iphone 13 pro max</h1>
+          <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus repellat commodi tempora deleniti
+            nostrum molestias non nisi porro sint ut vel, iste modi nobis quis corrupti doloribus aut fugiat eos!</p>
+          <a class="btn">All Products</a>
+        </div>
+        <div  class="img col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 pt-3">
+          <img data-aos="fade-left" data-aos-duration="1000" class="imgmain" src="img/1.png">
+        </div>
+      </div>
+      <div class="row icon mt-3 mb-5">
+        <ul data-aos="zoom-in-up" data-aos-duration="1000" class="mt-5">
+          <img class="Ximg" onmousemove="change(this.src); colorBody('#1e1e1e'); colorFooter('#292929')" src="img/1.png">
+          <img class="Ximg" onmousemove="change(this.src); colorBody('#c79b53'); colorFooter('#d0ab6f')" src="img/2.png">
+          <img class="Ximg" onmousemove="change(this.src); colorBody('#000'); colorFooter('#c1a24dd9')" src="img/3.png">
+          <img class="Ximg" onmousemove="change(this.src); colorBody('#c82525bf'); colorFooter('#bf3635')" src="img/4.png">
+          <img class="Ximg" onmousemove="change(this.src); colorBody('#247ec8de'); colorFooter('#4393d4')" src="img/5.png">
+        </ul>
+      </div>
+    </div>
+
+  </section>
+
+
+<section id="footer">
+  <div class="container pt-5 pb-5">
+    <div class="row">
+      <div class="Fimg mt-3 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+        <img class="Flogo" src="img/logo.png">
+        <h4>Apple</h4>  
+      </div>
+
+      <div class="mt-3 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+        <div class="row">
+
+          <div class="textF col-6">
+            <a>Home</a>
+            <a>Products</a>
+            <a>News</a>
+            <a>About</a>
+          </div>
+
+          <div class="textF col-6">
+            <h5>Contact</h5>
+            <!-- icon  -->
+            <span><i class="fa-solid fa-phone"></i> Telephone</span> 
+            <span><i class="fa-solid fa-envelope"></i> Massage</span> 
+            <span><i class="fa-solid fa-map-marker"></i> Location</span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<button id="toUp" >
+  <i class="fa-solid fa-angles-up"></i>
+</button>
+
+
+
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/all.min.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!-- main js file -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
